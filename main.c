@@ -33,6 +33,7 @@ void add_task() {
 void mark_done() {
     printf("Enter task number (starts from 0) ");
     scanf("%d", &taskIndex);
+    getchar();
 
     if (taskIndex >= 0 && taskIndex < numTasks) {
         tasks[taskIndex].done = 1;
