@@ -12,7 +12,7 @@ typedef struct {
 
 Task tasks[MAX_TASKS];
 int numTasks = 0;
-int taskIndex;
+int taskIndex = 0;
 
 
 void add_task() {
@@ -31,7 +31,7 @@ void add_task() {
 }
 
 void mark_done() {
-    printf("Enter task number (starts from 0) ");
+    printf("Enter task number (starts from 0): ");
     scanf("%d", &taskIndex);
     getchar();
 
