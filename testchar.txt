@@ -1,0 +1,62 @@
+✓
+
+TP: TODO LIST
+
+Dans ce tp vous devez créer un programme de liste de tache.
+
+Objectifs:
+Ajouter une tâche.
+Marquer une tâche comme "done".
+Lister toutes les taches.
+Lister les tâches qui reste à effectuer.
+Lister les tâches déjà terminé.
+Créer un menu pour simplifier l'utilisation de votre programme.
+Vérifiez les entrées utilisateurs pour assurer le bon fonctionnement de votre programme.
+
+
+
+
+  switch (choice) {
+            case 1:
+                add_task();
+
+                break;
+
+            case 2:
+        mark_done();
+                break;
+
+            case 3:
+                    list_all_tasks();
+                    break;
+
+
+
+
+            case 4:
+                    list_remaining_tasks();
+                    break;
+
+
+
+            case 5:
+                    list_completed_tasks();
+                    break;
+
+
+
+
+            case 0:
+                printf("Ciao !\n");
+                break;
+
+
+
+
+            default:
+                printf("Invalidated choice. Try again !\n");
+        }
+    } while (choice != 0);
+
+    return 0;
+}
