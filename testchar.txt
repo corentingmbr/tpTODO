@@ -1,4 +1,7 @@
-✓
+
+
+
+si tu veux remplace mon "done" par "✓". ça doit être vachement plus stylé mdr.
 
 TP: TODO LIST
 
