@@ -113,7 +113,7 @@ int main() {
             case 5:
                 list_completed_tasks();
                 break;
-            case 6:
+            case 0:
                 printf("Ciao !\n");
                 exit(0);
             default:
